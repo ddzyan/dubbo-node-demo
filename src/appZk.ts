@@ -1,12 +1,11 @@
 import Koa from 'koa'
-import { Dubbo, zk } from 'apache-dubbo-js'
-import services from './service'
+import { Dubbo } from 'apache-dubbo-js'
 
 const dubbo = new Dubbo<typeof services>({
   application: {
     name: 'hello-api'
   },
-  registry: zk({ connect: 'localhost:2181' }),
+  registry: 'localhost:2181',
   services
 })
 
