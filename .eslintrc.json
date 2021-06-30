@@ -1,0 +1,6 @@
+{
+  "extends": "@didi/eslint-config-standard/typescript",
+  "parserOptions": {
+    "project": "./tsconfig.json"
+  }
+}

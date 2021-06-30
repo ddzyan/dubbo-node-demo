@@ -1,0 +1,23 @@
+{
+  "name": "dubbo-ts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node -r ts-node/register src/appZk.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^15.12.5",
+    "apache-dubbo-js": "^3.0.0-rc6",
+    "koa": "^2.13.1",
+    "tslib": "^2.3.0"
+  },
+  "devDependencies": {
+    "ts-node": "^10.0.0",
+    "typescript": "^4.3.4"
+  }
+}
